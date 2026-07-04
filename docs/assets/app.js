@@ -115,7 +115,7 @@ async function initIcccm26() {
       + codePanel(`HAMON source · @${esc(ex.systemHint || "auto")}`, ex.hamonText)
       + `<div class="score" id="ic-score" style="margin-top:12px"></div></div>`
       + `<div>` + codePanel(`Export → ${esc(data.formatLabels[tgt] || tgt)}`, t.output, dl) + `</div>`
-      + `<div><h3 style="margin:2px 0 4px;font-size:15px">Round-trip loss (xencoding)</h3>`
+      + `<div><h3 style="margin:2px 0 4px;font-size:15px">Round-trip loss</h3>`
       + `<div class="hint" style="font-size:12px">HAMON → ${esc(data.formatLabels[tgt] || tgt)} → HAMON, measured by hamonpy.</div>`
       + summary
       + (semList.length ? `<ul class="loss-list">${lossItems(semList, "sem")}</ul>` : "")
