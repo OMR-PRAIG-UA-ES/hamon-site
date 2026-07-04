@@ -1,0 +1,56 @@
+HAMON — All Rights Reserved
+===========================
+
+Copyright (c) 2026 Patricia Garcia-Iasci, Johannes Hentschel, Fabian C. Moss,
+and David Rizo, and their respective institutions. All rights reserved.
+
+This repository — including the HAMON grammar (EBNF/ANTLR), the Python reference
+implementation (hamonpy), the conformance corpus and golden data, the fixtures,
+the ICCCM'26 materials, the generated site, the documentation, and every other
+file herein (collectively, the "Work") — comprises the proprietary materials
+accompanying the paper:
+
+    "Bridging harmonic representations through a multi-modal encoding."
+
+    To be presented at ICCCM 2026
+    (https://digital.musicology.org/icccm-2026/).
+
+    Authors:
+      Patricia Garcia-Iasci  <pgarcia.iasci@ua.es>
+          University of Alicante / University of Salamanca, Spain
+      Johannes Hentschel  <johannes.hentschel@bruckneruni.at>
+          Linz Computational Music Analysis Research Group,
+          Anton Bruckner University, Linz, Austria
+      Fabian C. Moss
+          Institut für Musikforschung,
+          Julius-Maximilians-Universität Würzburg, Würzburg, Germany
+      David Rizo
+          EASDA/ISEA.CV, University of Alicante, Spain
+
+NO LICENSE OR PERMISSION OF ANY KIND IS GRANTED.
+
+No person or entity is permitted to use, copy, reproduce, execute, run, compile,
+modify, adapt, translate, merge, publish, distribute, transmit, sublicense, sell,
+create derivative works from, or otherwise exploit the Work or any part of it, in
+any form or by any means, whether in source or binary form, without the prior
+explicit written permission of ALL of the copyright holders named above.
+
+The Work is made available solely for private, non-commercial review and academic
+evaluation in connection with the peer-review and presentation of the paper named
+above. Any other access, retention, or use is strictly prohibited. No rights are
+granted by implication, estoppel, or otherwise. All rights not expressly granted
+(and none are) are reserved.
+
+PROVISIONAL TERMS. These All-Rights-Reserved terms are provisional: they apply while
+the associated research is still being prepared for publication. The authors reserve
+the right to relicense the Work, in whole or in part, under different terms once that
+work has appeared. Until then, no use of any kind is permitted without written consent.
+
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN
+CONNECTION WITH THE WORK OR THE USE OR OTHER DEALINGS IN THE WORK.
+
+To request permission for any use, contact the authors.

@@ -1,0 +1,68 @@
+{
+  "labels": [
+    {
+      "type": "Harmony",
+      "start": 0,
+      "tag": "D7[of:V/V][scale:lydian-dominant]"
+    },
+    {
+      "type": "Harmony",
+      "start": 1,
+      "tag": "D7"
+    },
+    {
+      "type": "Harmony",
+      "start": 2,
+      "tag": "G7[of:V][scale:mixolydian]"
+    },
+    {
+      "type": "Harmony",
+      "start": 3,
+      "tag": "G7"
+    },
+    {
+      "type": "Harmony",
+      "start": 4,
+      "tag": "C7[of:I][scale:mixolydian]"
+    },
+    {
+      "type": "Harmony",
+      "start": 5,
+      "tag": "C7"
+    },
+    {
+      "type": "Harmony",
+      "start": 6,
+      "tag": "F6[scale:ionian]"
+    },
+    {
+      "type": "Harmony",
+      "start": 7,
+      "tag": "A7[of:vi]"
+    },
+    {
+      "type": "Harmony",
+      "start": 8,
+      "tag": "Dm7"
+    },
+    {
+      "type": "Harmony",
+      "start": 9,
+      "tag": "G7[of:V]"
+    },
+    {
+      "type": "Harmony",
+      "start": 10,
+      "tag": "Gb7[of:I]"
+    },
+    {
+      "type": "Harmony",
+      "start": 11,
+      "tag": "Fmaj7"
+    }
+  ],
+  "meta": {
+    "producer": "hamonpy",
+    "layout": []
+  }
+}

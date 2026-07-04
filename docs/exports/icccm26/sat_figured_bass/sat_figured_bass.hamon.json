@@ -1,0 +1,64 @@
+{
+  "groups": [
+    {
+      "primary": [
+        {
+          "surface": "6-4",
+          "semantic": {
+            "number": 6,
+            "kind": "figuredBass",
+            "tail": "-4"
+          },
+          "detectedSystem": "fb",
+          "system": "fb",
+          "sequenceSystemHint": "fb"
+        }
+      ]
+    },
+    {
+      "primary": [
+        {
+          "surface": "5-3",
+          "semantic": {
+            "number": 5,
+            "kind": "figuredBass",
+            "tail": "-3"
+          },
+          "detectedSystem": "fb",
+          "system": "fb",
+          "sequenceSystemHint": "fb"
+        }
+      ]
+    },
+    {
+      "primary": [
+        {
+          "surface": "7",
+          "semantic": {
+            "number": 7,
+            "kind": "nashville"
+          },
+          "detectedSystem": "ns",
+          "system": "fb",
+          "sequenceSystemHint": "fb"
+        }
+      ]
+    },
+    {
+      "primary": [
+        {
+          "surface": "6-5",
+          "semantic": {
+            "number": 6,
+            "kind": "figuredBass",
+            "tail": "-5"
+          },
+          "detectedSystem": "fb",
+          "system": "fb",
+          "sequenceSystemHint": "fb"
+        }
+      ]
+    }
+  ],
+  "sequenceSystemHint": "fb"
+}
