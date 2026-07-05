@@ -1,0 +1,14 @@
+X:1
+T:HAMON export
+M:4/4
+L:1/4
+K:C
+"1" z "5" z "6m" z "4" z "1" z "5sus" z "5" z |
+
+%%hamon 1
+%%hamon 5
+%%hamon 6m
+%%hamon 4
+%%hamon 1
+%%hamon 5sus
+%%hamon 5

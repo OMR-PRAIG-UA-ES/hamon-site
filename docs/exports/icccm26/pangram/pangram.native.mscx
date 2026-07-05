@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<museScore version="4.20">
+  <Score>
+    <Staff id="1">
+      <Harmony>
+        <text>Cmaj7</text>
+      </Harmony>
+      <Harmony>
+        <text>Dm7</text>
+      </Harmony>
+      <Harmony>
+        <text>G7</text>
+      </Harmony>
+      <Harmony>
+        <text>V7/V</text>
+      </Harmony>
+      <Harmony>
+        <text>6-5</text>
+      </Harmony>
+      <Harmony>
+        <text>2m</text>
+      </Harmony>
+      <Harmony>
+        <text>DD-&gt;D-&gt;T</text>
+      </Harmony>
+      <Harmony>
+        <text>PD-&gt;T</text>
+      </Harmony>
+      <Harmony>
+        <text>melodic:F</text>
+      </Harmony>
+    </Staff>
+  </Score>
+</museScore>

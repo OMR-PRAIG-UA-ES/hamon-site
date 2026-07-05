@@ -1,0 +1,43 @@
+{
+  "labels": [
+    {
+      "type": "Harmony",
+      "start": 0,
+      "tag": "1"
+    },
+    {
+      "type": "Harmony",
+      "start": 1,
+      "tag": "5"
+    },
+    {
+      "type": "Harmony",
+      "start": 2,
+      "tag": "6m"
+    },
+    {
+      "type": "Harmony",
+      "start": 3,
+      "tag": "4"
+    },
+    {
+      "type": "Harmony",
+      "start": 4,
+      "tag": "1"
+    },
+    {
+      "type": "Harmony",
+      "start": 5,
+      "tag": "5sus"
+    },
+    {
+      "type": "Harmony",
+      "start": 6,
+      "tag": "5"
+    }
+  ],
+  "meta": {
+    "producer": "hamonpy",
+    "layout": []
+  }
+}

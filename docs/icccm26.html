@@ -26,30 +26,34 @@
       <li><strong>David Rizo</strong> — EASDA/ISEA.CV, University of Alicante, Spain</li>
     </ul>
   </div>
-  <p class="lead">Each example is authored in HAMON, exported to every encoding and re-imported.
-  The <strong>round-trip loss</strong> report splits genuine <em>semantic loss</em> from expected
-  <em>notational re-spelling</em>. Only HAMON is lossless everywhere.</p>
+  <p class="lead">Each example is authored in HAMON and exported to every encoding using only that
+  encoding's <strong>native constructs</strong>. What a format cannot natively express is really
+  lost — unless a clearly-labelled <strong>out-of-band HAMON annotation</strong> carries it. Only
+  HAMON keeps everything.</p>
 
 <div class="method">
-  <b>How to read this page.</b> Everything that <em>is</em> HAMON — the surface, the per-format
-  exports and the <b>loss numbers</b> — is <b>text</b>, computed directly by the Python
-  reference <code>hamonpy</code> (<code>HAMON → format → HAMON</code>). It never passes through a
-  renderer. The engraved <b>score is illustrative only</b>: <code>music21</code> realizes the harmony
-  into pitches and <b>Verovio</b> (loaded from CDN) paints it, purely for visual reference. When a
-  score can't be realized/rendered it is simply omitted — that is a display limitation, <b>not</b> a
-  HAMON loss, and it does not affect any measurement here.
+  <b>How to read this page.</b> The loss is measured against each format's <b>native capability</b> —
+  what it can <em>legitimately</em> encode — not by smuggling the HAMON string into a text field.
+  In <b>Native</b> mode a format carries only its own constructs, so the analytical layer it can't
+  express (applied dominants, chord-scales, key context…) is genuinely lost. In <b>Native + HAMON</b>
+  mode we add a clearly-labelled <em>out-of-band</em> HAMON annotation (a comment, an MEI
+  <code>&lt;annot&gt;</code>, a sidecar field) that carries the full surface — so the loss drops to
+  zero, <em>except</em> in formats that have no such slot (Harte <code>.lab</code>, iReal), which
+  stay lossy. All of this is <b>text</b>, from the Python reference <code>hamonpy</code> + the
+  capability model in <code>site/native.py</code>. The engraved <b>score is illustrative only</b>
+  (<code>music21</code> → Verovio, CDN); when it can't render it is omitted — a display limitation,
+  <b>not</b> a HAMON loss.
 </div>
 
 
   <div class="figures">
-    <figure><img src="assets/figures/figure_loss_matrix.svg" alt="semantic-loss matrix"></figure>
-    <figure><img src="assets/figures/figure_hub_flagship_sweet_georgia_brown.svg" alt="HAMON hub"></figure>
+    <figure><img src="assets/figures/figure_native_loss_matrix.svg" alt="native-loss matrix"></figure>
   </div>
 
   <h2>Interactive loss viewer</h2>
-  <p class="hint">Pick an example and a target encoding. The middle panel is the export; the right
-  panel lists what the round-trip <code>HAMON → format → HAMON</code> loses. Hover a
-  <span class="chip sem">semantic</span> loss to highlight its trace in the panels.</p>
+  <p class="hint">Pick an example and a target encoding, and switch between <b>Native</b> and
+  <b>Native + HAMON</b>. The middle panel is the export; the right panel lists the harmonic
+  <span class="chip sem">aspects</span> the format cannot carry natively.</p>
   <div id="viewer" class="viewer"></div>
 </section>
 

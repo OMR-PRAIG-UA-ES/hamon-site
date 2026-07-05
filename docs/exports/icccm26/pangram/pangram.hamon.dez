@@ -1,0 +1,55 @@
+{
+  "labels": [
+    {
+      "type": "Harmony",
+      "start": 0,
+      "tag": "Cmaj7"
+    },
+    {
+      "type": "Harmony",
+      "start": 1,
+      "tag": "Dm7"
+    },
+    {
+      "type": "Harmony",
+      "start": 2,
+      "tag": "G7"
+    },
+    {
+      "type": "Harmony",
+      "start": 3,
+      "tag": "V7/V"
+    },
+    {
+      "type": "Harmony",
+      "start": 4,
+      "tag": "6-5"
+    },
+    {
+      "type": "Harmony",
+      "start": 5,
+      "tag": "2m"
+    },
+    {
+      "type": "Harmony",
+      "start": 6,
+      "tag": "DD->D->T"
+    },
+    {
+      "type": "Harmony",
+      "start": 7,
+      "tag": "PD->T"
+    },
+    {
+      "type": "Harmony",
+      "start": 8,
+      "tag": "melodic:F"
+    }
+  ],
+  "meta": {
+    "producer": "hamonpy",
+    "layout": []
+  }
+}
+
+{"hamon": ['Cmaj7[scale:ionian]', 'Dm7', 'G7[of:I]', 'V7/V', '6-5', '2m', 'DD->D->T', 'PD->T', 'melodic:F[NHT:passing]']}

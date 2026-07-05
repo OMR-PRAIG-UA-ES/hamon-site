@@ -1,0 +1,30 @@
+{
+  "labels": [
+    {
+      "type": "Harmony",
+      "start": 0,
+      "tag": "6-4"
+    },
+    {
+      "type": "Harmony",
+      "start": 1,
+      "tag": "5-3"
+    },
+    {
+      "type": "Harmony",
+      "start": 2,
+      "tag": "7"
+    },
+    {
+      "type": "Harmony",
+      "start": 3,
+      "tag": "6-5"
+    }
+  ],
+  "meta": {
+    "producer": "hamonpy",
+    "layout": []
+  }
+}
+
+{"hamon": ['6-4', '5-3', '7', '6-5']}

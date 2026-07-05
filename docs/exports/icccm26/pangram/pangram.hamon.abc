@@ -1,0 +1,16 @@
+X:1
+T:HAMON export
+M:4/4
+L:1/4
+K:C
+"Cmaj7" z "Dm7" z "G7" z "V7/V" z "6-5" z "2m" z "DD->D->T" z "PD->T" z "melodic:F" z |
+
+%%hamon Cmaj7[scale:ionian]
+%%hamon Dm7
+%%hamon G7[of:I]
+%%hamon V7/V
+%%hamon 6-5
+%%hamon 2m
+%%hamon DD->D->T
+%%hamon PD->T
+%%hamon melodic:F[NHT:passing]
