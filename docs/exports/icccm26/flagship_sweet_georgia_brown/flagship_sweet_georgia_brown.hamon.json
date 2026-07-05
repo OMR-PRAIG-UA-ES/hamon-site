@@ -3,7 +3,7 @@
     {
       "primary": [
         {
-          "surface": "D7[of:V/V][scale:lydian-dominant]",
+          "surface": "D7[of:II][scale:lydian-dominant]",
           "semantic": {
             "kind": "chordSymbol",
             "root": {
@@ -20,7 +20,7 @@
           "sequenceSystemHint": "cs",
           "attributes": {
             "applied": {
-              "target": "V/V"
+              "target": "II"
             },
             "scales": [
               {

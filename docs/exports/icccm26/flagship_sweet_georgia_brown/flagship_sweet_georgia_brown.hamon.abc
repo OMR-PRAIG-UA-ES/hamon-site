@@ -5,7 +5,7 @@ L:1/4
 K:C
 "D7" z "D7" z "G7" z "G7" z "C7" z "C7" z "F6" z "A7" z "Dm7" z "G7" z "Gb7" z "Fmaj7" z |
 
-%%hamon D7[of:V/V][scale:lydian-dominant]
+%%hamon D7[of:II][scale:lydian-dominant]
 %%hamon D7
 %%hamon G7[of:V][scale:mixolydian]
 %%hamon G7

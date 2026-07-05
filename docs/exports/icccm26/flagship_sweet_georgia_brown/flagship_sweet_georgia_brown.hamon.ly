@@ -3,7 +3,7 @@
   c1
 }
 
-% hamon: D7[of:V/V][scale:lydian-dominant]
+% hamon: D7[of:II][scale:lydian-dominant]
 % hamon: D7
 % hamon: G7[of:V][scale:mixolydian]
 % hamon: G7
