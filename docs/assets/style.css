@@ -72,6 +72,14 @@ footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 13px
 .panel pre .ln { display: block; padding: 0 4px; border-radius: 3px; }
 .panel pre .ln.hl { background: #fff3cd; }
 
+/* collapsible HAMON canonical JSON */
+.jsonwrap > summary { cursor: pointer; font-size: 12px; font-weight: 600; color: var(--muted);
+  padding: 7px 12px; border: 1px solid var(--line); border-radius: 9px; background: var(--soft);
+  user-select: none; list-style-position: inside; }
+.jsonwrap[open] > summary { border-radius: 9px 9px 0 0; border-bottom: none; }
+.jsonwrap > summary .hint { font-weight: 400; }
+.jsonwrap[open] > summary + .panel { border-radius: 0 0 9px 9px; border-top: none; }
+
 /* ICCCM26 viewer */
 .viewer .ex-tabs button { font-size: 13px; }
 .viewer .grid { display: grid; grid-template-columns: 1fr 1fr 1.1fr; gap: 14px; margin-top: 12px; }

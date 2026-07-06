@@ -136,6 +136,10 @@ async function initIcccm26() {
     grid.innerHTML =
       `<div>`
       + codePanel(`HAMON source · @${esc(ex.systemHint || "auto")}`, ex.hamonText)
+      + `<details class="jsonwrap" style="margin-top:12px">`
+      + `<summary>HAMON canonical JSON <span class="hint">(the hub — <code>grammar/hamon-schema.json</code>)</span></summary>`
+      + codePanel("hamon.json", ex.hamonJson)
+      + `</details>`
       + `<div class="score" id="ic-score" style="margin-top:12px"></div></div>`
       + `<div>` + codePanel(`${isNat() ? "Native" : "Native + HAMON"} → ${esc(fmtLabel)}`, text, dl) + `</div>`
       + `<div><h3 style="margin:2px 0 4px;font-size:15px">What ${esc(fmtLabel)} can't carry</h3>`
