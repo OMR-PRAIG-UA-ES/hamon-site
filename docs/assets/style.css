@@ -93,10 +93,14 @@ footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 13px
 .ex-header .blurb { margin: 6px 0 0; font-size: 14px; color: var(--ink); max-width: 80ch; }
 
 /* two-column layout: score+source on the left, the format explorer on the right */
+/* the engraved score gets its own full-width row so wide overlays aren't cramped */
+.score-row { margin: 4px 0 14px; }
+.score-row .score { text-align: center; }
+.score-row .score svg { max-width: 100%; height: auto; }
+
 .ic-grid { display: grid; grid-template-columns: 1fr 1.05fr; gap: 16px; margin-top: 10px;
   align-items: start; }
 @media (max-width: 900px) { .ic-grid { grid-template-columns: 1fr; } }
-.ic-grid .col-left > .score { margin-bottom: 12px; }
 
 /* format chooser: fits (dark tabs) vs can't-express (muted outline chips) */
 .fmt-group { margin-bottom: 8px; }

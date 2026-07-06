@@ -86,8 +86,9 @@ async function initIcccm26() {
     exTabs.appendChild(b);
   });
   const header = el("div", { class: "ex-header" });
+  const scoreRow = el("div", { class: "score-row" });
   const grid = el("div", { class: "ic-grid" });
-  root.append(exTabs, header, grid);
+  root.append(exTabs, header, scoreRow, grid);
 
   function lossPanelHtml(t) {
     const loss = isNat() ? t.nativeLoss : t.annotatedLoss;
@@ -155,9 +156,10 @@ async function initIcccm26() {
           : `<p class="hint">This encoding has no comment/annotation slot, so the HAMON reading can't travel here at all — only the interlingua keeps it.</p>`);
     }
 
+    scoreRow.innerHTML = `<div class="score" id="ic-score"></div>`;
+
     grid.innerHTML =
       `<div class="col-left">`
-      + `<div class="score" id="ic-score"></div>`
       + codePanel(`HAMON source · @${esc(ex.systemHint || "auto")}`, ex.hamonText)
       + `<details class="jsonwrap" style="margin-top:10px">`
       + `<summary>HAMON canonical JSON <span class="hint">(the hub — <code>grammar/hamon-schema.json</code>)</span></summary>`
@@ -169,7 +171,7 @@ async function initIcccm26() {
       b.onclick = () => { tgt = b.dataset.t; render(); });
     grid.querySelectorAll("[data-mode]").forEach((b) =>
       b.onclick = () => { mode = b.dataset.mode; render(); });
-    scoreBlock($("#ic-score", grid), ex.musicxml, ex.scoreKind);
+    scoreBlock($("#ic-score", scoreRow), ex.musicxml, ex.scoreKind);
   }
   render();
 }
