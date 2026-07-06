@@ -37,10 +37,15 @@ function highlightLines(panelPre, needles) {
   });
 }
 
-/** Illustrative-score block: renders MusicXML via Verovio, or a clear text fallback. */
-function scoreBlock(container, musicxml) {
-  const LABEL = "Illustrative engraving — music21 realization → Verovio "
-    + "(display only; not part of the HAMON pipeline).";
+/** Illustrative-score block: renders MusicXML/MEI via Verovio, or a clear text fallback.
+ *  scoreKind "overlay" = the real source score with HAMON harmony injected as positioned
+ *  <harm>/<fb>; anything else = a music21 realization of the labels (display only). */
+function scoreBlock(container, musicxml, scoreKind) {
+  const LABEL = scoreKind === "overlay"
+    ? "Real source score (Verovio) with the HAMON harmony overlaid as positioned "
+      + "&lt;harm&gt;/&lt;fb&gt; — the labels come solely from the .hamon."
+    : "Illustrative engraving — music21 realization → Verovio "
+      + "(display only; not part of the HAMON pipeline).";
   if (!musicxml) {
     container.className = "score empty";
     container.innerHTML = "No engraved preview for this example — the display realizer covers "
@@ -137,7 +142,7 @@ async function initIcccm26() {
       + `<div class="hint" style="font-size:12px">native capability vs the HAMON analysis, per <code>site/native.py</code>.</div>`
       + lossPanel + `</div>`;
 
-    scoreBlock($("#ic-score", grid), ex.musicxml);
+    scoreBlock($("#ic-score", grid), ex.musicxml, ex.scoreKind);
   }
   render();
 }

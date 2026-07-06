@@ -31,7 +31,9 @@
   }
 
   window.HamonVerovio = {
-    /** Render a MusicXML string to an SVG string (page 1), or throw. */
+    /** Render a MusicXML or MEI string to an SVG string (page 1), or throw.
+     *  Verovio auto-detects the input format, so a merged MEI (real score + HAMON
+     *  <harm>/<fb> overlay) renders the same way as a realized MusicXML chart. */
     async render(musicxml) {
       const tk = await load();
       tk.loadData(musicxml);
