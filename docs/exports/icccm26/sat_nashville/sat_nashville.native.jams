@@ -1,0 +1,60 @@
+{
+  "file_metadata": {
+    "title": "",
+    "artist": "",
+    "release": "",
+    "duration": null,
+    "identifiers": {},
+    "jams_version": "0.3.4"
+  },
+  "annotations": [
+    {
+      "namespace": "chord",
+      "data": [],
+      "annotation_metadata": {
+        "corpus": "",
+        "version": "0.3.0",
+        "annotator": {},
+        "annotation_tools": "hamonpy",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": "HAMON",
+        "curator": {
+          "name": "",
+          "email": ""
+        }
+      },
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    },
+    {
+      "namespace": "key_mode",
+      "data": [
+        {
+          "time": 0,
+          "duration": null,
+          "value": "G:major",
+          "confidence": null
+        }
+      ],
+      "annotation_metadata": {
+        "corpus": "",
+        "version": "0.3.0",
+        "annotator": {},
+        "annotation_tools": "hamonpy",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": "HAMON",
+        "curator": {
+          "name": "",
+          "email": ""
+        }
+      },
+      "sandbox": {},
+      "time": 0,
+      "duration": null
+    }
+  ],
+  "sandbox": {}
+}
