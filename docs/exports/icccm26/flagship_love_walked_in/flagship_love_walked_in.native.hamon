@@ -1,4 +1,5 @@
-@version:0.3.0
+@version:0.4.0
+@meter:4/4
 @key:C
 m:25,ts:1,cs:C,rn:I
 m:27,ts:1,cs:F,rn:iv

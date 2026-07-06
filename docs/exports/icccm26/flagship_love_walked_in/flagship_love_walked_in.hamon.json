@@ -311,7 +311,14 @@
       }
     }
   ],
-  "version": "0.3.0",
+  "version": "0.4.0",
+  "meters": [
+    {
+      "numerator": 4,
+      "denominator": 4,
+      "fromGroup": 0
+    }
+  ],
   "regions": [
     {
       "key": {
