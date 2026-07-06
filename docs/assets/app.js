@@ -56,7 +56,8 @@ function scoreBlock(container, musicxml, scoreKind) {
   container.innerHTML = `<div class="slabel">${LABEL}</div><div class="svg">rendering…</div>`;
   const slot = $(".svg", container);
   if (!window.HamonVerovio) { slot.textContent = "(Verovio unavailable)"; return; }
-  window.HamonVerovio.render(musicxml)
+  const width = Math.max(700, (slot.clientWidth || container.clientWidth || 1100) - 4);
+  window.HamonVerovio.render(musicxml, width)
     .then((svg) => { slot.innerHTML = svg; })
     .catch(() => {
       container.className = "score empty";
