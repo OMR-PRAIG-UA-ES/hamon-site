@@ -1,0 +1,35 @@
+{
+  "labels": [
+    {
+      "type": "Harmony",
+      "start": 0,
+      "tag": "Dm7"
+    },
+    {
+      "type": "Harmony",
+      "start": 1,
+      "tag": "G7"
+    },
+    {
+      "type": "Harmony",
+      "start": 2,
+      "tag": "Cmaj7"
+    },
+    {
+      "type": "Harmony",
+      "start": 3,
+      "tag": "A7"
+    },
+    {
+      "type": "Harmony",
+      "start": 4,
+      "tag": "Dm7"
+    }
+  ],
+  "meta": {
+    "producer": "hamonpy",
+    "layout": []
+  }
+}
+
+{"hamon": ['Dm7', 'G7', 'Cmaj7', 'A7[of:ii][scale:altered]', 'Dm7']}

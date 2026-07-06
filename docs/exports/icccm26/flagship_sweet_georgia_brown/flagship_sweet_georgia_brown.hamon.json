@@ -17,7 +17,7 @@
           },
           "detectedSystem": "cs",
           "system": "cs",
-          "sequenceSystemHint": "cs",
+          "sequenceSystemHint": "auto",
           "attributes": {
             "applied": {
               "target": "II"
@@ -48,7 +48,7 @@
           },
           "detectedSystem": "cs",
           "system": "cs",
-          "sequenceSystemHint": "cs"
+          "sequenceSystemHint": "auto"
         }
       ]
     },
@@ -69,7 +69,7 @@
           },
           "detectedSystem": "cs",
           "system": "cs",
-          "sequenceSystemHint": "cs",
+          "sequenceSystemHint": "auto",
           "attributes": {
             "applied": {
               "target": "V"
@@ -100,7 +100,7 @@
           },
           "detectedSystem": "cs",
           "system": "cs",
-          "sequenceSystemHint": "cs"
+          "sequenceSystemHint": "auto"
         }
       ]
     },
@@ -121,7 +121,7 @@
           },
           "detectedSystem": "cs",
           "system": "cs",
-          "sequenceSystemHint": "cs",
+          "sequenceSystemHint": "auto",
           "attributes": {
             "applied": {
               "target": "I"
@@ -152,7 +152,7 @@
           },
           "detectedSystem": "cs",
           "system": "cs",
-          "sequenceSystemHint": "cs"
+          "sequenceSystemHint": "auto"
         }
       ]
     },
@@ -172,7 +172,7 @@
           },
           "detectedSystem": "cs",
           "system": "cs",
-          "sequenceSystemHint": "cs",
+          "sequenceSystemHint": "auto",
           "attributes": {
             "scales": [
               {
@@ -200,7 +200,7 @@
           },
           "detectedSystem": "cs",
           "system": "cs",
-          "sequenceSystemHint": "cs",
+          "sequenceSystemHint": "auto",
           "attributes": {
             "applied": {
               "target": "vi"
@@ -227,7 +227,7 @@
           },
           "detectedSystem": "cs",
           "system": "cs",
-          "sequenceSystemHint": "cs"
+          "sequenceSystemHint": "auto"
         }
       ]
     },
@@ -248,7 +248,7 @@
           },
           "detectedSystem": "cs",
           "system": "cs",
-          "sequenceSystemHint": "cs",
+          "sequenceSystemHint": "auto",
           "attributes": {
             "applied": {
               "target": "V"
@@ -278,7 +278,7 @@
           },
           "detectedSystem": "cs",
           "system": "cs",
-          "sequenceSystemHint": "cs",
+          "sequenceSystemHint": "auto",
           "attributes": {
             "applied": {
               "target": "I"
@@ -305,12 +305,12 @@
           },
           "detectedSystem": "cs",
           "system": "cs",
-          "sequenceSystemHint": "cs"
+          "sequenceSystemHint": "auto"
         }
       ]
     }
   ],
-  "sequenceSystemHint": "cs",
+  "sequenceSystemHint": "auto",
   "version": "0.3.0",
   "regions": [
     {

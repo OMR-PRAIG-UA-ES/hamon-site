@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<museScore version="4.20">
+  <Score>
+    <Staff id="1">
+      <Harmony>
+        <text>Dm7</text>
+      </Harmony>
+      <Harmony>
+        <text>G7</text>
+      </Harmony>
+      <Harmony>
+        <text>Cmaj7</text>
+      </Harmony>
+      <Harmony>
+        <text>A7</text>
+      </Harmony>
+      <Harmony>
+        <text>Dm7</text>
+      </Harmony>
+    </Staff>
+  </Score>
+</museScore>
