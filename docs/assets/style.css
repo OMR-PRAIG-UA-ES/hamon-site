@@ -84,6 +84,35 @@ footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 13px
 .viewer .ex-tabs button { font-size: 13px; }
 .viewer .grid { display: grid; grid-template-columns: 1fr 1fr 1.1fr; gap: 14px; margin-top: 12px; }
 @media (max-width: 980px) { .viewer .grid { grid-template-columns: 1fr; } }
+
+/* per-example header */
+.ex-header { margin: 14px 0 4px; }
+.ex-header h2 { display: inline; font-size: 20px; margin: 0; }
+.ex-header .excerpt { font-size: 13px; color: var(--muted); font-weight: 600; margin-left: 8px;
+  white-space: nowrap; }
+.ex-header .blurb { margin: 6px 0 0; font-size: 14px; color: var(--ink); max-width: 80ch; }
+
+/* two-column layout: score+source on the left, the format explorer on the right */
+.ic-grid { display: grid; grid-template-columns: 1fr 1.05fr; gap: 16px; margin-top: 10px;
+  align-items: start; }
+@media (max-width: 900px) { .ic-grid { grid-template-columns: 1fr; } }
+.ic-grid .col-left > .score { margin-bottom: 12px; }
+
+/* format chooser: fits (dark tabs) vs can't-express (muted outline chips) */
+.fmt-group { margin-bottom: 8px; }
+.fmt-lead { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em;
+  color: var(--ink); }
+.fmt-lead.muted { color: var(--muted); }
+.fmt-tabs { margin: 5px 0 4px; }
+.fmt-tabs button small { margin-left: 5px; font-weight: 400; opacity: .8; }
+.fmt-tabs.nofit button { border-style: dashed; color: var(--muted); background: #fff; }
+.fmt-tabs.nofit button.active { background: var(--muted); color: #fff; border-style: solid; }
+.chip-nofit { font-size: 12px; }
+
+/* explanation shown when a can't-express format is selected */
+.nofit-explain { border-left: 3px solid var(--not); background: #fffdf5; border-radius: 0 7px 7px 0;
+  padding: 10px 12px; margin: 6px 0 10px; }
+.nofit-explain .why { margin: 0; font-size: 14px; }
 .loss-summary { display: flex; gap: 8px; margin: 8px 0; flex-wrap: wrap; }
 .loss-list { list-style: none; margin: 0; padding: 0; }
 .loss-list li { border: 1px solid var(--line); border-radius: 7px; padding: 7px 10px; margin-bottom: 6px;

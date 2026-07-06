@@ -75,77 +75,100 @@ async function loadJSON(path) {
 async function initIcccm26() {
   const data = await loadJSON("assets/data/icccm26.json");
   const root = $("#viewer");
-  let exi = 0, tgt = data.examples[0].targets[0].target, mode = "native";
+  let exi = 0, tgt = null, mode = "native";
   const isNat = () => mode === "native";
+  const fmtName = (t) => esc(data.formatLabels[t] || t);
 
   const exTabs = el("div", { class: "tabs ex-tabs" });
   data.examples.forEach((ex, i) => {
     const b = el("button", i === 0 ? { class: "active" } : {}, esc(ex.label));
-    b.onclick = () => { exi = i; render(); };
+    b.onclick = () => { exi = i; tgt = null; render(); };
     exTabs.appendChild(b);
   });
-  const modeTabs = el("div", { class: "tabs mode-tabs" });
-  [["native", "Native"], ["annotated", "Native + HAMON"]].forEach(([m, lbl]) => {
-    const b = el("button", m === mode ? { class: "active" } : {}, lbl);
-    b.onclick = () => { mode = m; render(); };
-    b.dataset.mode = m;
-    modeTabs.appendChild(b);
-  });
-  const fmtTabs = el("div", { class: "tabs fmt-tabs" });
-  const grid = el("div", { class: "grid" });
-  root.append(exTabs, modeTabs, fmtTabs, grid);
+  const header = el("div", { class: "ex-header" });
+  const grid = el("div", { class: "ic-grid" });
+  root.append(exTabs, header, grid);
+
+  function lossPanelHtml(t) {
+    const loss = isNat() ? t.nativeLoss : t.annotatedLoss;
+    if (loss === 0) {
+      return `<div class="loss-summary"><span class="chip ok">lossless ✓</span></div>`
+        + (!isNat() && t.nativeLoss > 0
+          ? `<p class="hint">The ${t.nativeLoss} aspect(s) lost natively ride in the `
+            + `<b>out-of-band HAMON annotation</b> appended to the export.</p>` : "");
+    }
+    const items = t.lostAspects.map((a) =>
+      `<li class="sem"><b>${esc(a.label)}</b> <span class="lp">×${a.count}</span></li>`).join("");
+    return `<div class="loss-summary"><span class="chip sem">−${loss} aspect(s)</span></div>`
+      + `<ul class="loss-list">${items}</ul>`;
+  }
 
   function render() {
     const ex = data.examples[exi];
     [...exTabs.children].forEach((b, i) => b.classList.toggle("active", i === exi));
-    [...modeTabs.children].forEach((b) => b.classList.toggle("active", b.dataset.mode === mode));
-    if (!ex.targets.some((t) => t.target === tgt)) tgt = ex.targets[0].target;
 
-    fmtTabs.innerHTML = "";
-    ex.targets.forEach((t) => {
-      const loss = isNat() ? t.nativeLoss : t.annotatedLoss;
-      const b = el("button", t.target === tgt ? { class: "active" } : {},
-        `${esc(data.formatLabels[t.target] || t.target)} <small>${loss === 0 ? "✓" : "−" + loss}</small>`);
-      b.onclick = () => { tgt = t.target; render(); };
-      fmtTabs.appendChild(b);
-    });
-
+    const fits = ex.targets.filter((t) => t.fits && t.target !== "hamon");
+    const noFits = ex.targets.filter((t) => !t.fits);
+    if (!tgt || !ex.targets.some((t) => t.target === tgt)) {
+      tgt = (fits[0] || ex.targets.find((t) => t.target !== "hamon") || ex.targets[0]).target;
+    }
     const t = ex.targets.find((x) => x.target === tgt);
-    const fmtLabel = data.formatLabels[tgt] || tgt;
-    const text = isNat() ? t.nativeText : t.annotatedText;
-    const path = isNat() ? t.nativePath : t.annotatedPath;
-    const loss = isNat() ? t.nativeLoss : t.annotatedLoss;
-    const dl = `<a class="dl" href="${esc(path)}" download>download .${esc(t.ext)}</a>`;
 
-    let lossPanel;
-    if (loss === 0) {
-      lossPanel = `<div class="loss-summary"><span class="chip ok">lossless ✓</span></div>`
-        + (!isNat() && t.nativeLoss > 0
-          ? `<p class="hint" style="font-size:12px">The ${t.nativeLoss} aspect(s) lost natively are carried by the `
-            + `<b>out-of-band HAMON annotation</b> appended to the export.</p>` : "");
+    header.innerHTML =
+      `<h2>${esc(ex.title)}</h2>`
+      + (ex.excerpt ? ` <span class="excerpt">${esc(ex.excerpt)}</span>` : "")
+      + (ex.blurb ? `<p class="blurb">${esc(ex.blurb)}</p>` : "");
+
+    // ── format chooser: the ones that fit (interactive) + the ones that don't
+    const fitBtns = fits.map((x) => {
+      const loss = isNat() ? x.nativeLoss : x.annotatedLoss;
+      return `<button data-t="${x.target}" class="${x.target === tgt ? "active" : ""}">`
+        + `${fmtName(x.target)}<small>${loss === 0 ? "✓" : "−" + loss}</small></button>`;
+    }).join("");
+    const noFitBtns = noFits.map((x) =>
+      `<button data-t="${x.target}" class="chip-nofit ${x.target === tgt ? "active" : ""}">`
+      + `${fmtName(x.target)}</button>`).join("");
+    const chooser =
+      `<div class="fmt-group"><span class="fmt-lead">Encodings that fit</span>`
+      + `<div class="tabs fmt-tabs">${fitBtns || '<span class="hint">— only HAMON keeps this reading —</span>'}</div></div>`
+      + (noFits.length
+        ? `<div class="fmt-group"><span class="fmt-lead muted">Can't express this</span>`
+          + `<div class="tabs fmt-tabs nofit">${noFitBtns}</div></div>` : "");
+
+    // ── the selected format's panel
+    let detail;
+    if (t.fits) {
+      const dl = `<a class="dl" href="${esc(isNat() ? t.nativePath : t.annotatedPath)}" download>download .${esc(t.ext)}</a>`;
+      const modeTabs = `<div class="tabs mode-tabs">`
+        + [["native", "Native"], ["annotated", "Native + HAMON"]].map(([m, l]) =>
+          `<button data-mode="${m}" class="${m === mode ? "active" : ""}">${l}</button>`).join("")
+        + `</div>`;
+      detail = modeTabs
+        + codePanel(`${isNat() ? "Native" : "Native + HAMON"} → ${fmtName(tgt)}`,
+                    isNat() ? t.nativeText : t.annotatedText, dl)
+        + lossPanelHtml(t);
     } else {
-      const items = t.lostAspects.map((a) =>
-        `<li class="sem"><b>${esc(a.label)}</b> <span class="lp">×${a.count}</span></li>`).join("");
-      const slot = (!isNat() && !t.hasSlot)
-        ? `<p class="hint" style="font-size:12px;color:var(--sem)"><b>${esc(fmtLabel)}</b> has no comment/annotation `
-          + `slot — HAMON can't even be carried out-of-band, so the loss stands.</p>` : "";
-      lossPanel = `<div class="loss-summary"><span class="chip sem">−${loss} aspect(s)</span></div>`
-        + `<ul class="loss-list">${items}</ul>${slot}`;
+      const dl = `<a class="dl" href="${esc(t.annotatedPath)}" download>download .${esc(t.ext)}</a>`;
+      detail = `<div class="nofit-explain"><p class="why">${esc(t.whyNot)}</p></div>`
+        + (t.hasSlot
+          ? codePanel(`Native + HAMON → ${fmtName(tgt)} (out-of-band)`, t.annotatedText, dl)
+          : `<p class="hint">This encoding has no comment/annotation slot, so the HAMON reading can't travel here at all — only the interlingua keeps it.</p>`);
     }
 
     grid.innerHTML =
-      `<div>`
+      `<div class="col-left">`
+      + `<div class="score" id="ic-score"></div>`
       + codePanel(`HAMON source · @${esc(ex.systemHint || "auto")}`, ex.hamonText)
-      + `<details class="jsonwrap" style="margin-top:12px">`
+      + `<details class="jsonwrap" style="margin-top:10px">`
       + `<summary>HAMON canonical JSON <span class="hint">(the hub — <code>grammar/hamon-schema.json</code>)</span></summary>`
       + codePanel("hamon.json", ex.hamonJson)
-      + `</details>`
-      + `<div class="score" id="ic-score" style="margin-top:12px"></div></div>`
-      + `<div>` + codePanel(`${isNat() ? "Native" : "Native + HAMON"} → ${esc(fmtLabel)}`, text, dl) + `</div>`
-      + `<div><h3 style="margin:2px 0 4px;font-size:15px">What ${esc(fmtLabel)} can't carry</h3>`
-      + `<div class="hint" style="font-size:12px">native capability vs the HAMON analysis, per <code>site/native.py</code>.</div>`
-      + lossPanel + `</div>`;
+      + `</details></div>`
+      + `<div class="col-right">${chooser}${detail}</div>`;
 
+    grid.querySelectorAll("[data-t]").forEach((b) =>
+      b.onclick = () => { tgt = b.dataset.t; render(); });
+    grid.querySelectorAll("[data-mode]").forEach((b) =>
+      b.onclick = () => { mode = b.dataset.mode; render(); });
     scoreBlock($("#ic-score", grid), ex.musicxml, ex.scoreKind);
   }
   render();

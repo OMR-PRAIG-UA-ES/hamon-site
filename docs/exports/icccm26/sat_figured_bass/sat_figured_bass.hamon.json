@@ -11,9 +11,13 @@
           },
           "detectedSystem": "fb",
           "system": "fb",
-          "sequenceSystemHint": "fb"
+          "layer": "bass"
         }
-      ]
+      ],
+      "position": {
+        "measure": 1,
+        "beat": 1.0
+      }
     },
     {
       "primary": [
@@ -26,9 +30,13 @@
           },
           "detectedSystem": "fb",
           "system": "fb",
-          "sequenceSystemHint": "fb"
+          "layer": "bass"
         }
-      ]
+      ],
+      "position": {
+        "measure": 1,
+        "beat": 2.0
+      }
     },
     {
       "primary": [
@@ -36,13 +44,17 @@
           "surface": "7",
           "semantic": {
             "number": 7,
-            "kind": "nashville"
+            "kind": "figuredBass"
           },
-          "detectedSystem": "ns",
+          "detectedSystem": "fb",
           "system": "fb",
-          "sequenceSystemHint": "fb"
+          "layer": "bass"
         }
-      ]
+      ],
+      "position": {
+        "measure": 1,
+        "beat": 3.0
+      }
     },
     {
       "primary": [
@@ -55,10 +67,21 @@
           },
           "detectedSystem": "fb",
           "system": "fb",
-          "sequenceSystemHint": "fb"
+          "layer": "bass"
         }
-      ]
+      ],
+      "position": {
+        "measure": 1,
+        "beat": 4.0
+      }
     }
   ],
-  "sequenceSystemHint": "fb"
+  "version": "0.4.0",
+  "meters": [
+    {
+      "numerator": 4,
+      "denominator": 4,
+      "fromGroup": 0
+    }
+  ]
 }
