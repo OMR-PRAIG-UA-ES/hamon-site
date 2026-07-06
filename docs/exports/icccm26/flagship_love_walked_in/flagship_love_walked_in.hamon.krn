@@ -20,22 +20,22 @@ C
 I
 *-
 
-!!hamon: chord:C
-!!hamon: degree:I
-!!hamon: chord:F
-!!hamon: degree:iv
-!!hamon: chord:C
-!!hamon: chord:Fm7
-!!hamon: degree:ii
-!!hamon: chord:Bb7
-!!hamon: degree:V
-!!hamon: chord:C
-!!hamon: degree:I
-!!hamon: chord:A7
-!!hamon: degree:V
-!!hamon: chord:Dm7
-!!hamon: degree:ii
-!!hamon: chord:G7
-!!hamon: degree:V
-!!hamon: chord:C
-!!hamon: degree:I
+!!hamon: C
+!!hamon: I
+!!hamon: F
+!!hamon: iv
+!!hamon: C
+!!hamon: Fm7
+!!hamon: ii
+!!hamon: Bb7
+!!hamon: V
+!!hamon: C
+!!hamon: I
+!!hamon: A7
+!!hamon: V
+!!hamon: Dm7
+!!hamon: ii
+!!hamon: G7
+!!hamon: V
+!!hamon: C
+!!hamon: I

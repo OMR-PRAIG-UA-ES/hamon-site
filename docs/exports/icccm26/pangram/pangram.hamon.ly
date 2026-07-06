@@ -11,4 +11,4 @@
 % hamon: 2m
 % hamon: DD->D->T
 % hamon: PD->T
-% hamon: melodic:F[NHT:passing]
+% hamon: F[NHT:passing]

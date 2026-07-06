@@ -3,7 +3,7 @@
     {
       "primary": [
         {
-          "surface": "chord:C",
+          "surface": "C",
           "semantic": {
             "kind": "chordSymbol",
             "root": {
@@ -16,7 +16,7 @@
           "layer": "chord"
         },
         {
-          "surface": "degree:I",
+          "surface": "I",
           "semantic": {
             "degree": "I",
             "kind": "roman"
@@ -34,7 +34,7 @@
     {
       "primary": [
         {
-          "surface": "chord:F",
+          "surface": "F",
           "semantic": {
             "kind": "chordSymbol",
             "root": {
@@ -47,7 +47,7 @@
           "layer": "chord"
         },
         {
-          "surface": "degree:iv",
+          "surface": "iv",
           "semantic": {
             "degree": "iv",
             "kind": "roman"
@@ -65,7 +65,7 @@
     {
       "primary": [
         {
-          "surface": "chord:C",
+          "surface": "C",
           "semantic": {
             "kind": "chordSymbol",
             "root": {
@@ -86,7 +86,7 @@
     {
       "primary": [
         {
-          "surface": "chord:Fm7",
+          "surface": "Fm7",
           "semantic": {
             "kind": "chordSymbol",
             "root": {
@@ -104,7 +104,7 @@
           "layer": "chord"
         },
         {
-          "surface": "degree:ii",
+          "surface": "ii",
           "semantic": {
             "degree": "ii",
             "kind": "roman"
@@ -122,7 +122,7 @@
     {
       "primary": [
         {
-          "surface": "chord:Bb7",
+          "surface": "Bb7",
           "semantic": {
             "kind": "chordSymbol",
             "root": {
@@ -143,7 +143,7 @@
           "layer": "chord"
         },
         {
-          "surface": "degree:V",
+          "surface": "V",
           "semantic": {
             "degree": "V",
             "kind": "roman"
@@ -161,7 +161,7 @@
     {
       "primary": [
         {
-          "surface": "chord:C",
+          "surface": "C",
           "semantic": {
             "kind": "chordSymbol",
             "root": {
@@ -174,7 +174,7 @@
           "layer": "chord"
         },
         {
-          "surface": "degree:I",
+          "surface": "I",
           "semantic": {
             "degree": "I",
             "kind": "roman"
@@ -192,7 +192,7 @@
     {
       "primary": [
         {
-          "surface": "chord:A7",
+          "surface": "A7",
           "semantic": {
             "kind": "chordSymbol",
             "root": {
@@ -209,7 +209,7 @@
           "layer": "chord"
         },
         {
-          "surface": "degree:V",
+          "surface": "V",
           "semantic": {
             "degree": "V",
             "kind": "roman"
@@ -227,7 +227,7 @@
     {
       "primary": [
         {
-          "surface": "chord:Dm7",
+          "surface": "Dm7",
           "semantic": {
             "kind": "chordSymbol",
             "root": {
@@ -245,7 +245,7 @@
           "layer": "chord"
         },
         {
-          "surface": "degree:ii",
+          "surface": "ii",
           "semantic": {
             "degree": "ii",
             "kind": "roman"
@@ -263,7 +263,7 @@
     {
       "primary": [
         {
-          "surface": "chord:G7",
+          "surface": "G7",
           "semantic": {
             "kind": "chordSymbol",
             "root": {
@@ -280,7 +280,7 @@
           "layer": "chord"
         },
         {
-          "surface": "degree:V",
+          "surface": "V",
           "semantic": {
             "degree": "V",
             "kind": "roman"
@@ -298,7 +298,7 @@
     {
       "primary": [
         {
-          "surface": "chord:C",
+          "surface": "C",
           "semantic": {
             "kind": "chordSymbol",
             "root": {
@@ -311,7 +311,7 @@
           "layer": "chord"
         },
         {
-          "surface": "degree:I",
+          "surface": "I",
           "semantic": {
             "degree": "I",
             "kind": "roman"

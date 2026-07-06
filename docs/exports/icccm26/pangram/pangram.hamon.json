@@ -161,7 +161,7 @@
     {
       "primary": [
         {
-          "surface": "melodic:F[NHT:passing]",
+          "surface": "F[NHT:passing]",
           "semantic": {
             "category": "nonharmonic",
             "kind": "tone",

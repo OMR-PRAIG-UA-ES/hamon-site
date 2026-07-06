@@ -1,12 +1,12 @@
 @version:0.3.0
 @key:C
-chord:C , degree:I @@25:1
-chord:F , degree:iv @@27:1
-chord:C @@28:1
-chord:Fm7 , degree:ii @@28:3
-chord:Bb7 , degree:V @@28:4
-chord:C , degree:I @@29:1
-chord:A7 , degree:V @@29:3
-chord:Dm7 , degree:ii @@30:1
-chord:G7 , degree:V @@30:3
-chord:C , degree:I @@31:1
+m:25,ts:1,cs:C,rn:I
+m:27,ts:1,cs:F,rn:iv
+m:28,ts:1,cs:C
+m:28,ts:3,cs:Fm7,rn:ii
+m:28,ts:4,cs:Bb7,rn:V
+m:29,ts:1,cs:C,rn:I
+m:29,ts:3,cs:A7,rn:V
+m:30,ts:1,cs:Dm7,rn:ii
+m:30,ts:3,cs:G7,rn:V
+m:31,ts:1,cs:C,rn:I
