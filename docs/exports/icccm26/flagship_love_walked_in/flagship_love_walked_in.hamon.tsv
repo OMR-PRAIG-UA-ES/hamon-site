@@ -1,12 +1,12 @@
 chord	numeral	form	figbass	changes	relativeroot	localkey	globalkey
 I	I					I	C
 iv	iv					I	C
-ii	ii					I	C
-V	V					I	C
+ii7	ii		7			I	C
+V7	V		7			I	C
 I	I					I	C
-V	V					I	C
+V7/ii	V		7		ii	I	C
 ii	ii					I	C
-V	V					I	C
+V7	V		7			I	C
 I	I					I	C
 
-# hamon	C · I · F · iv · C · Fm7 · ii · Bb7 · V · C · I · A7 · V · Dm7 · ii · G7 · V · C · I
+# hamon	C · I · F · iv · Fm7 · ii7 · Bb7 · V7 · C · I · A7 · V7/ii · Dm7 · ii · G7 · V7 · C · I

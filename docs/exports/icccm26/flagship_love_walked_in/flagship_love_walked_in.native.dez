@@ -13,41 +13,36 @@
     {
       "type": "Harmony",
       "start": 2,
-      "tag": "C"
-    },
-    {
-      "type": "Harmony",
-      "start": 3,
       "tag": "Fm7"
     },
     {
       "type": "Harmony",
-      "start": 4,
+      "start": 3,
       "tag": "Bb7"
     },
     {
       "type": "Harmony",
-      "start": 5,
+      "start": 4,
       "tag": "C"
     },
     {
       "type": "Harmony",
-      "start": 6,
+      "start": 5,
       "tag": "A7"
     },
     {
       "type": "Harmony",
-      "start": 7,
+      "start": 6,
       "tag": "Dm7"
     },
     {
       "type": "Harmony",
-      "start": 8,
+      "start": 7,
       "tag": "G7"
     },
     {
       "type": "Harmony",
-      "start": 9,
+      "start": 8,
       "tag": "C"
     }
   ],

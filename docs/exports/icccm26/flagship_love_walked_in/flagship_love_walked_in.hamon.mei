@@ -4,21 +4,20 @@
 <harm>I</harm>
 <harm>F</harm>
 <harm>iv</harm>
-<harm>C</harm>
 <harm>Fm7</harm>
-<harm>ii</harm>
+<harm>ii7</harm>
 <harm>Bb7</harm>
-<harm>V</harm>
+<harm>V7</harm>
 <harm>C</harm>
 <harm>I</harm>
 <harm>A7</harm>
-<harm>V</harm>
+<harm>V7/ii</harm>
 <harm>Dm7</harm>
 <harm>ii</harm>
 <harm>G7</harm>
-<harm>V</harm>
+<harm>V7</harm>
 <harm>C</harm>
 <harm>I</harm>
 </measure>
 
-<annot type="hamon">C · I · F · iv · C · Fm7 · ii · Bb7 · V · C · I · A7 · V · Dm7 · ii · G7 · V · C · I</annot>
+<annot type="hamon">C · I · F · iv · Fm7 · ii7 · Bb7 · V7 · C · I · A7 · V7/ii · Dm7 · ii · G7 · V7 · C · I</annot>

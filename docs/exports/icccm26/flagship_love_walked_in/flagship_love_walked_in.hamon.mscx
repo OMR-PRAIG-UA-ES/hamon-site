@@ -9,9 +9,6 @@
         <text>F</text>
       </Harmony>
       <Harmony>
-        <text>C</text>
-      </Harmony>
-      <Harmony>
         <text>Fm7</text>
       </Harmony>
       <Harmony>
@@ -36,4 +33,4 @@
   </Score>
 </museScore>
 
-<!-- hamon: C · I · F · iv · C · Fm7 · ii · Bb7 · V · C · I · A7 · V · Dm7 · ii · G7 · V · C · I -->
+<!-- hamon: C · I · F · iv · Fm7 · ii7 · Bb7 · V7 · C · I · A7 · V7/ii · Dm7 · ii · G7 · V7 · C · I -->

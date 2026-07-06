@@ -3,24 +3,23 @@ T:HAMON export
 M:4/4
 L:1/4
 K:C
-"C" z "F" z "C" z "Fm7" z "Bb7" z "C" z "A7" z "Dm7" z "G7" z "C" z |
+"C" z "F" z "Fm7" z "Bb7" z "C" z "A7" z "Dm7" z "G7" z "C" z |
 
 %%hamon C
 %%hamon I
 %%hamon F
 %%hamon iv
-%%hamon C
 %%hamon Fm7
-%%hamon ii
+%%hamon ii7
 %%hamon Bb7
-%%hamon V
+%%hamon V7
 %%hamon C
 %%hamon I
 %%hamon A7
-%%hamon V
+%%hamon V7/ii
 %%hamon Dm7
 %%hamon ii
 %%hamon G7
-%%hamon V
+%%hamon V7
 %%hamon C
 %%hamon I

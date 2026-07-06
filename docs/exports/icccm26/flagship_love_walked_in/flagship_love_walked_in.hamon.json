@@ -65,27 +65,6 @@
     {
       "primary": [
         {
-          "surface": "C",
-          "semantic": {
-            "kind": "chordSymbol",
-            "root": {
-              "note": "C"
-            },
-            "quality": "major"
-          },
-          "detectedSystem": "cs",
-          "system": "cs",
-          "layer": "chord"
-        }
-      ],
-      "position": {
-        "measure": 28,
-        "beat": 1.0
-      }
-    },
-    {
-      "primary": [
-        {
           "surface": "Fm7",
           "semantic": {
             "kind": "chordSymbol",
@@ -104,10 +83,11 @@
           "layer": "chord"
         },
         {
-          "surface": "ii",
+          "surface": "ii7",
           "semantic": {
             "degree": "ii",
-            "kind": "roman"
+            "kind": "roman",
+            "tail": "7"
           },
           "detectedSystem": "rn",
           "system": "rn",
@@ -143,10 +123,11 @@
           "layer": "chord"
         },
         {
-          "surface": "V",
+          "surface": "V7",
           "semantic": {
             "degree": "V",
-            "kind": "roman"
+            "kind": "roman",
+            "tail": "7"
           },
           "detectedSystem": "rn",
           "system": "rn",
@@ -209,10 +190,12 @@
           "layer": "chord"
         },
         {
-          "surface": "V",
+          "surface": "V7/ii",
           "semantic": {
             "degree": "V",
-            "kind": "roman"
+            "kind": "roman",
+            "tail": "7",
+            "secondary": "ii"
           },
           "detectedSystem": "rn",
           "system": "rn",
@@ -221,7 +204,7 @@
       ],
       "position": {
         "measure": 29,
-        "beat": 3.0
+        "beat": 4.0
       }
     },
     {
@@ -280,10 +263,11 @@
           "layer": "chord"
         },
         {
-          "surface": "V",
+          "surface": "V7",
           "semantic": {
             "degree": "V",
-            "kind": "roman"
+            "kind": "roman",
+            "tail": "7"
           },
           "detectedSystem": "rn",
           "system": "rn",
