@@ -2,33 +2,7 @@
 <museScore version="4.20">
   <Score>
     <Staff id="1">
-      <Harmony>
-        <text>I</text>
-      </Harmony>
-      <Harmony>
-        <text>vi</text>
-      </Harmony>
-      <Harmony>
-        <text>ii6</text>
-      </Harmony>
-      <Harmony>
-        <text>V7/V</text>
-      </Harmony>
-      <Harmony>
-        <text>V</text>
-      </Harmony>
-      <Harmony>
-        <text>I6</text>
-      </Harmony>
-      <Harmony>
-        <text>IV</text>
-      </Harmony>
-      <Harmony>
-        <text>V7</text>
-      </Harmony>
-      <Harmony>
-        <text>I</text>
-      </Harmony>
+
     </Staff>
   </Score>
 </museScore>

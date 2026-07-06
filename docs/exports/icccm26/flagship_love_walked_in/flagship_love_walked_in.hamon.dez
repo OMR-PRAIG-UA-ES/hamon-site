@@ -3,62 +3,52 @@
     {
       "type": "Harmony",
       "start": 0,
-      "tag": "D7"
+      "tag": "C"
     },
     {
       "type": "Harmony",
       "start": 1,
-      "tag": "D7"
+      "tag": "F"
     },
     {
       "type": "Harmony",
       "start": 2,
-      "tag": "G7"
+      "tag": "C"
     },
     {
       "type": "Harmony",
       "start": 3,
-      "tag": "G7"
+      "tag": "Fm7"
     },
     {
       "type": "Harmony",
       "start": 4,
-      "tag": "C7"
+      "tag": "Bb7"
     },
     {
       "type": "Harmony",
       "start": 5,
-      "tag": "C7"
+      "tag": "C"
     },
     {
       "type": "Harmony",
       "start": 6,
-      "tag": "F6"
-    },
-    {
-      "type": "Harmony",
-      "start": 7,
       "tag": "A7"
     },
     {
       "type": "Harmony",
-      "start": 8,
+      "start": 7,
       "tag": "Dm7"
     },
     {
       "type": "Harmony",
-      "start": 9,
+      "start": 8,
       "tag": "G7"
     },
     {
       "type": "Harmony",
-      "start": 10,
-      "tag": "Gb7"
-    },
-    {
-      "type": "Harmony",
-      "start": 11,
-      "tag": "Fmaj7"
+      "start": 9,
+      "tag": "C"
     }
   ],
   "meta": {
@@ -66,3 +56,5 @@
     "layout": []
   }
 }
+
+{"hamon": ['chord:C', 'degree:I', 'chord:F', 'degree:iv', 'chord:C', 'chord:Fm7', 'degree:ii', 'chord:Bb7', 'degree:V', 'chord:C', 'degree:I', 'chord:A7', 'degree:V', 'chord:Dm7', 'degree:ii', 'chord:G7', 'degree:V', 'chord:C', 'degree:I']}

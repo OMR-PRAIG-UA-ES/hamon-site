@@ -1,0 +1,26 @@
+X:1
+T:HAMON export
+M:4/4
+L:1/4
+K:C
+"C" z "F" z "C" z "Fm7" z "Bb7" z "C" z "A7" z "Dm7" z "G7" z "C" z |
+
+%%hamon chord:C
+%%hamon degree:I
+%%hamon chord:F
+%%hamon degree:iv
+%%hamon chord:C
+%%hamon chord:Fm7
+%%hamon degree:ii
+%%hamon chord:Bb7
+%%hamon degree:V
+%%hamon chord:C
+%%hamon degree:I
+%%hamon chord:A7
+%%hamon degree:V
+%%hamon chord:Dm7
+%%hamon degree:ii
+%%hamon chord:G7
+%%hamon degree:V
+%%hamon chord:C
+%%hamon degree:I

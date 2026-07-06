@@ -1,9 +1,5 @@
 Cmaj7
 Dm7
 G7
-V7/V
-6-5
-2m
 DD->D->T
-PD->T
-melodic:F
+F

@@ -3,7 +3,7 @@ T:HAMON export
 M:4/4
 L:1/4
 K:C
-"Cmaj7" z "Dm7" z "G7" z "V7/V" z "6-5" z "2m" z "DD->D->T" z "PD->T" z "melodic:F" z |
+"Cmaj7" z "Dm7" z "G7" z "DD->D->T" z "F" z |
 
 %%hamon Cmaj7[scale:ionian]
 %%hamon Dm7

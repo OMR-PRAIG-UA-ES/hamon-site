@@ -23,27 +23,12 @@
     {
       "type": "Harmony",
       "start": 4,
-      "tag": "6-5"
-    },
-    {
-      "type": "Harmony",
-      "start": 5,
-      "tag": "2m"
-    },
-    {
-      "type": "Harmony",
-      "start": 6,
       "tag": "DD->D->T"
     },
     {
       "type": "Harmony",
-      "start": 7,
-      "tag": "PD->T"
-    },
-    {
-      "type": "Harmony",
-      "start": 8,
-      "tag": "melodic:F"
+      "start": 5,
+      "tag": "F"
     }
   ],
   "meta": {
