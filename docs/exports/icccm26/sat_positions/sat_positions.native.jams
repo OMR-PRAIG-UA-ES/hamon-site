@@ -12,32 +12,32 @@
       "namespace": "chord",
       "data": [
         {
-          "time": 0,
-          "duration": 1,
+          "time": null,
+          "duration": null,
           "value": "D:min7",
           "confidence": null
         },
         {
-          "time": 1,
-          "duration": 1,
+          "time": null,
+          "duration": null,
           "value": "G:7",
           "confidence": null
         },
         {
-          "time": 2,
-          "duration": 1,
+          "time": null,
+          "duration": null,
           "value": "C:maj7",
           "confidence": null
         },
         {
-          "time": 3,
-          "duration": 1,
+          "time": null,
+          "duration": null,
           "value": "A:7",
           "confidence": null
         },
         {
-          "time": 4,
-          "duration": 1,
+          "time": null,
+          "duration": null,
           "value": "D:min7",
           "confidence": null
         }

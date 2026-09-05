@@ -1,38 +1,36 @@
-**mxhm
-C
-I
-F
-iv
-Fm7
-ii7
-Bb7
-V7
-C
-I
-A7
-V7/ii
-Dm7
-ii
-G7
-V7
-C
-I
-*-
+**mxhm	**harm
+*C:	*C:
+=25	=25
+C	I
+=27	=27
+F	IV
+=28	=28
+Fm7	iv7
+Bb7	bVII7
+=29	=29
+C	I
+A7	V7/ii
+=30	=30
+Dm7	ii7
+G7	V7
+=31	=31
+C	I
+*-	*-
 
 !!hamon: C
 !!hamon: I
 !!hamon: F
-!!hamon: iv
+!!hamon: IV
 !!hamon: Fm7
-!!hamon: ii7
+!!hamon: iv7
 !!hamon: Bb7
-!!hamon: V7
+!!hamon: bVII7
 !!hamon: C
 !!hamon: I
 !!hamon: A7
 !!hamon: V7/ii
 !!hamon: Dm7
-!!hamon: ii
+!!hamon: ii7
 !!hamon: G7
 !!hamon: V7
 !!hamon: C

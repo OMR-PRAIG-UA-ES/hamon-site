@@ -1,23 +1,23 @@
-<measure>
-<harm type="hamon:key">C</harm>
-<harm>C</harm>
-<harm>I</harm>
-<harm>F</harm>
-<harm>iv</harm>
-<harm>Fm7</harm>
-<harm>ii7</harm>
-<harm>Bb7</harm>
-<harm>V7</harm>
-<harm>C</harm>
-<harm>I</harm>
-<harm>A7</harm>
-<harm>V7/ii</harm>
-<harm>Dm7</harm>
-<harm>ii</harm>
-<harm>G7</harm>
-<harm>V7</harm>
-<harm>C</harm>
-<harm>I</harm>
+<measure n="25">
+<harm type="chord" tstamp="1">C</harm>
+</measure>
+<measure n="27">
+<harm type="chord" tstamp="1">F</harm>
+</measure>
+<measure n="28">
+<harm type="chord" tstamp="3">Fm7</harm>
+<harm type="chord" tstamp="4">Bb7</harm>
+</measure>
+<measure n="29">
+<harm type="chord" tstamp="1">C</harm>
+<harm type="chord" tstamp="4">A7</harm>
+</measure>
+<measure n="30">
+<harm type="chord" tstamp="1">Dm7</harm>
+<harm type="chord" tstamp="3">G7</harm>
+</measure>
+<measure n="31">
+<harm type="chord" tstamp="1">C</harm>
 </measure>
 
-<annot type="hamon">C · I · F · iv · Fm7 · ii7 · Bb7 · V7 · C · I · A7 · V7/ii · Dm7 · ii · G7 · V7 · C · I</annot>
+<annot type="hamon">C · I · F · IV · Fm7 · iv7 · Bb7 · bVII7 · C · I · A7 · V7/ii · Dm7 · ii7 · G7 · V7 · C · I</annot>

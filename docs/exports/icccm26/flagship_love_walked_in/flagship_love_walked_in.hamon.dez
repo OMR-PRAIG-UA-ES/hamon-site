@@ -1,55 +1,9 @@
 {
-  "labels": [
-    {
-      "type": "Harmony",
-      "start": 0,
-      "tag": "C"
-    },
-    {
-      "type": "Harmony",
-      "start": 1,
-      "tag": "F"
-    },
-    {
-      "type": "Harmony",
-      "start": 2,
-      "tag": "Fm7"
-    },
-    {
-      "type": "Harmony",
-      "start": 3,
-      "tag": "Bb7"
-    },
-    {
-      "type": "Harmony",
-      "start": 4,
-      "tag": "C"
-    },
-    {
-      "type": "Harmony",
-      "start": 5,
-      "tag": "A7"
-    },
-    {
-      "type": "Harmony",
-      "start": 6,
-      "tag": "Dm7"
-    },
-    {
-      "type": "Harmony",
-      "start": 7,
-      "tag": "G7"
-    },
-    {
-      "type": "Harmony",
-      "start": 8,
-      "tag": "C"
-    }
-  ],
+  "labels": [],
   "meta": {
     "producer": "hamonpy",
     "layout": []
   }
 }
 
-{"hamon": ['C', 'I', 'F', 'iv', 'Fm7', 'ii7', 'Bb7', 'V7', 'C', 'I', 'A7', 'V7/ii', 'Dm7', 'ii', 'G7', 'V7', 'C', 'I']}
+{"hamon": ['C', 'I', 'F', 'IV', 'Fm7', 'iv7', 'Bb7', 'bVII7', 'C', 'I', 'A7', 'V7/ii', 'Dm7', 'ii7', 'G7', 'V7', 'C', 'I']}

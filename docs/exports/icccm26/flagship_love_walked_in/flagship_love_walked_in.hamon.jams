@@ -12,56 +12,56 @@
       "namespace": "chord",
       "data": [
         {
-          "time": 0,
-          "duration": 1,
+          "time": null,
+          "duration": null,
           "value": "C:maj",
           "confidence": null
         },
         {
-          "time": 1,
-          "duration": 1,
+          "time": null,
+          "duration": null,
           "value": "F:maj",
           "confidence": null
         },
         {
-          "time": 2,
-          "duration": 1,
+          "time": null,
+          "duration": null,
           "value": "F:min7",
           "confidence": null
         },
         {
-          "time": 3,
-          "duration": 1,
+          "time": null,
+          "duration": null,
           "value": "Bb:7",
           "confidence": null
         },
         {
-          "time": 4,
-          "duration": 1,
+          "time": null,
+          "duration": null,
           "value": "C:maj",
           "confidence": null
         },
         {
-          "time": 5,
-          "duration": 1,
+          "time": null,
+          "duration": null,
           "value": "A:7",
           "confidence": null
         },
         {
-          "time": 6,
-          "duration": 1,
+          "time": null,
+          "duration": null,
           "value": "D:min7",
           "confidence": null
         },
         {
-          "time": 7,
-          "duration": 1,
+          "time": null,
+          "duration": null,
           "value": "G:7",
           "confidence": null
         },
         {
-          "time": 8,
-          "duration": 1,
+          "time": null,
+          "duration": null,
           "value": "C:maj",
           "confidence": null
         }
@@ -114,4 +114,4 @@
   "sandbox": {}
 }
 
-"sandbox": {"hamon": ['C', 'I', 'F', 'iv', 'Fm7', 'ii7', 'Bb7', 'V7', 'C', 'I', 'A7', 'V7/ii', 'Dm7', 'ii', 'G7', 'V7', 'C', 'I']}
+"sandbox": {"hamon": ['C', 'I', 'F', 'IV', 'Fm7', 'iv7', 'Bb7', 'bVII7', 'C', 'I', 'A7', 'V7/ii', 'Dm7', 'ii7', 'G7', 'V7', 'C', 'I']}

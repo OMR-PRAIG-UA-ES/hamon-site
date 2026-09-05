@@ -5,7 +5,6 @@
   <harmony><root><root-step>C</root-step></root><kind text="maj7">other</kind></harmony>
   <harmony><root><root-step>D</root-step></root><kind text="m7">other</kind></harmony>
   <harmony><root><root-step>G</root-step></root><kind text="7">other</kind></harmony>
-  <harmony><root><root-step>F</root-step></root><kind></kind></harmony>
     </measure>
   </part>
 </score-partwise>

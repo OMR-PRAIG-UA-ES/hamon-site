@@ -9,7 +9,7 @@ iReal Pro · DCML · RomanText · Dezrann.
 corpus are under [`docs/`](docs/) (served via GitHub Pages).
 
 > **Paper:** *"Bridging harmonic representations through a multi-modal encoding."* —
-> to be presented at **[ICCCM 2026](https://digital.musicology.org/icccm-2026/)**.
+> to be presented at **[ICCCM 2026](https://digital.musicology.org/icccm-2026/)** (Würzburg, 21–23 September 2026).
 > Patricia Garcia-Iasci (University of Alicante / University of Salamanca),
 > Johannes Hentschel (Anton Bruckner University, Linz),
 > Fabian C. Moss (Julius-Maximilians-Universität Würzburg),
@@ -22,7 +22,6 @@ for research or evaluation, please **contact the authors** (see the paper / `LIC
 
 ## License
 
-⚠️ **Proprietary — All Rights Reserved (provisional).** See [`LICENSE`](LICENSE). No use,
-copying, modification, or distribution is permitted without the explicit written permission
-of all copyright holders. These terms are provisional while the associated research is being
-prepared for publication and may be relicensed thereafter.
+The code is **Apache-2.0**; the standard and its data (grammar, schema, conformance corpus,
+fixtures, documentation) are **CC BY 4.0**. See [`LICENSE`](LICENSE). Both ask for
+attribution — please cite the ICCCM'26 paper. Corpora that HAMON reads keep their own terms.

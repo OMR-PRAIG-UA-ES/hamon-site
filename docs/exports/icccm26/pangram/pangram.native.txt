@@ -1,5 +1,3 @@
 Cmaj7
 Dm7
 G7
-DD->D->T
-F

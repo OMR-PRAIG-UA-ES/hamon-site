@@ -1,27 +1,40 @@
-<measure>
-<harm type="hamon:key">Eb</harm>
-<harm type="bass">5-3</harm>
-<harm type="bass">6</harm>
-<harm type="bass">5-3</harm>
-<harm type="bass">6</harm>
-<harm type="bass">5-3</harm>
-<harm type="bass">4-2</harm>
-<harm type="bass">6</harm>
-<harm type="bass">4-2</harm>
-<harm type="bass">6</harm>
-<harm type="bass">7</harm>
-<harm type="bass">7</harm>
-<harm type="bass">5-3</harm>
-<harm type="bass">6</harm>
-<harm type="bass">6</harm>
-<harm type="bass">6</harm>
-<harm type="bass">6</harm>
-<harm type="bass">6</harm>
-<harm type="bass">7</harm>
-<harm type="bass">7</harm>
-<harm type="bass">5-3</harm>
-<harm type="bass">5-3</harm>
-<harm type="bass">5-3</harm>
+<measure n="1">
+<harm type="bass" tstamp="1">5-3</harm>
+<harm type="bass" tstamp="3">6</harm>
+<harm type="bass" tstamp="4">5-3</harm>
+<harm type="bass" tstamp="4.5">6</harm>
+</measure>
+<measure n="2">
+<harm type="bass" tstamp="1">5-3</harm>
+<harm type="bass" tstamp="3">4-2</harm>
+<harm type="bass" tstamp="4">6</harm>
+</measure>
+<measure n="3">
+<harm type="bass" tstamp="1">4-2</harm>
+<harm type="bass" tstamp="2">6</harm>
+<harm type="bass" tstamp="3">7</harm>
+<harm type="bass" tstamp="4">7</harm>
+</measure>
+<measure n="4">
+<harm type="bass" tstamp="1">5-3</harm>
+</measure>
+<measure n="5">
+<harm type="bass" tstamp="1">6</harm>
+<harm type="bass" tstamp="2">6</harm>
+</measure>
+<measure n="6">
+<harm type="bass" tstamp="1">6</harm>
+<harm type="bass" tstamp="2">6</harm>
+<harm type="bass" tstamp="3">6</harm>
+</measure>
+<measure n="7">
+<harm type="bass" tstamp="1">7</harm>
+<harm type="bass" tstamp="3">7</harm>
+</measure>
+<measure n="8">
+<harm type="bass" tstamp="1">5-3</harm>
+<harm type="bass" tstamp="3">5-3</harm>
+<harm type="bass" tstamp="4">5-3</harm>
 </measure>
 
 <annot type="hamon">5-3 · 6 · 5-3 · 6 · 5-3 · 4-2 · 6 · 4-2 · 6 · 7 · 7 · 5-3 · 6 · 6 · 6 · 6 · 6 · 7 · 7 · 5-3 · 5-3 · 5-3</annot>

@@ -1,8 +1,13 @@
-<measure>
-<harm type="hamon:key">C</harm>
-<harm>Dm7</harm>
-<harm>G7</harm>
-<harm>Cmaj7</harm>
-<harm>A7</harm>
-<harm>Dm7</harm>
+<measure n="1">
+<harm tstamp="1">Dm7</harm>
+</measure>
+<measure n="2">
+<harm tstamp="1">G7</harm>
+</measure>
+<measure n="3">
+<harm tstamp="1">Cmaj7</harm>
+<harm tstamp="3">A7</harm>
+</measure>
+<measure n="4">
+<harm tstamp="1">Dm7</harm>
 </measure>

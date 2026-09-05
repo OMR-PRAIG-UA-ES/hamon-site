@@ -1,8 +1,8 @@
-<measure>
-<harm type="bass">6-4</harm>
-<harm type="bass">5-3</harm>
-<harm type="bass">7</harm>
-<harm type="bass">6-5</harm>
+<measure n="1">
+<harm type="bass" tstamp="1">6-4</harm>
+<harm type="bass" tstamp="2">5-3</harm>
+<harm type="bass" tstamp="3">7</harm>
+<harm type="bass" tstamp="4">6-5</harm>
 </measure>
 
 <annot type="hamon">6-4 · 5-3 · 7 · 6-5</annot>

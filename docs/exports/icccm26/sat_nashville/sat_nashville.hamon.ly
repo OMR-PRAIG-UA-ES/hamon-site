@@ -1,6 +1,6 @@
 \version "2.24.0"
 \chordmode {
-  c1
+  s1
 }
 
 % hamon: 1

@@ -1,36 +1,5 @@
 {
-  "labels": [
-    {
-      "type": "Harmony",
-      "start": 0,
-      "tag": "Cmaj7"
-    },
-    {
-      "type": "Harmony",
-      "start": 1,
-      "tag": "Dm7"
-    },
-    {
-      "type": "Harmony",
-      "start": 2,
-      "tag": "G7"
-    },
-    {
-      "type": "Harmony",
-      "start": 3,
-      "tag": "V7/V"
-    },
-    {
-      "type": "Harmony",
-      "start": 4,
-      "tag": "DD->D->T"
-    },
-    {
-      "type": "Harmony",
-      "start": 5,
-      "tag": "F"
-    }
-  ],
+  "labels": [],
   "meta": {
     "producer": "hamonpy",
     "layout": []

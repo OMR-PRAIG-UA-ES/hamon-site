@@ -47,9 +47,9 @@
           "layer": "chord"
         },
         {
-          "surface": "iv",
+          "surface": "IV",
           "semantic": {
-            "degree": "iv",
+            "degree": "IV",
             "kind": "roman"
           },
           "detectedSystem": "rn",
@@ -83,9 +83,9 @@
           "layer": "chord"
         },
         {
-          "surface": "ii7",
+          "surface": "iv7",
           "semantic": {
-            "degree": "ii",
+            "degree": "iv",
             "kind": "roman",
             "tail": "7"
           },
@@ -123,10 +123,13 @@
           "layer": "chord"
         },
         {
-          "surface": "V7",
+          "surface": "bVII7",
           "semantic": {
-            "degree": "V",
+            "degree": "VII",
             "kind": "roman",
+            "prefixAccidentals": [
+              "b"
+            ],
             "tail": "7"
           },
           "detectedSystem": "rn",
@@ -228,10 +231,11 @@
           "layer": "chord"
         },
         {
-          "surface": "ii",
+          "surface": "ii7",
           "semantic": {
             "degree": "ii",
-            "kind": "roman"
+            "kind": "roman",
+            "tail": "7"
           },
           "detectedSystem": "rn",
           "system": "rn",
